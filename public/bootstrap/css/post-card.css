@@ -1,0 +1,146 @@
+.full-width {
+    display: flex;
+    width: 100%;
+    /* Ensure the form itself takes up full width */
+}
+.postcard {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0.25rem;
+    box-shadow: 0 4ppx 6px rgba(0, 0, 0, 0.1);
+    max-height: 100%;
+}
+.postcard img,
+.media {
+    width: 100%;
+    height: auto;
+    max-height: 60vh;
+    border-radius: 10px;
+}
+audio {
+    border-radius: 15px;
+ 
+}
+.postcard a {
+    text-decoration: none;
+    color: black;
+}
+.close-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Style for the close button (using Bootstrap's btn-close class) */
+.btn-close {
+    white-space: nowrap;
+    padding: 1.25rem 1.25rem;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.btn-close:focus {
+    box-shadow: none;
+}
+.imgp {
+    margin: 10px !important;
+}
+.comment-section {
+    overflow: auto;
+    height: 34rem;
+    background-color: #fff;
+}
+.comment {
+    background-color: #d1c7bd;
+}
+audio {
+    width: 100%;
+}
+.carousel-item img,
+.media img {
+    height: 25rem;
+    object-fit: contain;
+}
+.btn-outline-commment {
+    color: white;
+    border-color: #d1c7bd;
+    background-color: #d1c7bd;
+}
+.btn {
+    color: #fff !important;
+}
+.btn:hover {
+    background-color: #fff !important;
+    border-color: #d1c7bd !important;
+    color: #d1c7bd !important;
+}
+
+.btn-outline-commment:focus {
+    box-shadow: none;
+}
+
+.comment-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4ppx 6px rgba(0, 0, 0, 0.1);
+}
+.comment-section h4 {
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.comment-list {
+    list-style: none;
+    padding: 0;
+}
+.comment {
+    margin-bottom: 15 px;
+    display: flex;
+    align-items: center;
+}
+.commented-section img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.comment a {
+    font-weight: bold;
+    font-style: none;
+    text-decoration: none;
+}
+body {
+    background-color: #d1c7bd !important;
+}
+.information-like_comment_share {
+    display: inline-flex;
+    align-items: center;
+}
+
+.information-like_comment_share i {
+    margin-right: 5px; /* Adjust the spacing between icons as needed */
+}
+.information-like_comment_share i:hover {
+    color: #d1c7bd;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    font-size: 33px;
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.dot {
+    height: 7px;
+    width: 7px;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(29, 204, 20);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.hit-voting {
+    cursor: pointer;
+}

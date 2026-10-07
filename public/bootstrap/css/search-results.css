@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+}
+
+.main {
+    min-height: 50vh;
+}
+.artists,
+.visitors {
+    min-height: 50%;
+}
+
+a,
+a:hover,
+a:active {
+    /* Selects all anchor tags (links) */
+    text-decoration: none;
+    /* Inherit color from surrounding text */
+}
+
+.pfp {
+    margin: 0.25rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+.main {
+    max-width: 90vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.row-title {
+    text-align: center;
+}
+.username {
+    font-size: 1.2rem;
+}
+.additional-text {
+    font-style: italic;
+}
+.posts,
+.artists,
+.visitors {
+    max-height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #ffffffa4;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 0rem 1rem;
+    padding: 0 !important;
+    margin-bottom: 5px;
+    padding-right: 20px; /* Added padding to the right side */
+}
+.post,
+.artist,
+.visitor {
+    border-bottom: 1px solid #000;
+
+    padding: 0.25rem;
+}
+
+.posts-title,
+.artists-title,
+.visitors-title {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #fffffffe;
+    border-bottom: 1px solid #000;
+}
+h3 {
+    padding: 0;
+}

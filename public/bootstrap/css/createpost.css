@@ -1,0 +1,70 @@
+.media-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+    border: 2px dashed #ccc !important;
+    width: 100%;
+    height: 100%; /* Set height to 100% to fill the column */
+    cursor: pointer;
+}
+
+.media-upload p {
+    margin-top: 10px;
+}
+
+/* Style for the closing button container */
+.close-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Style for the close button (using Bootstrap's btn-close class) */
+.btn-close {
+    white-space: nowrap;
+    padding: 1.25rem 1.25rem;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.btn-close:focus {
+    box-shadow: none;
+}
+
+body {
+    background-color: #d1c7bd !important;
+}
+.btn-outline-commment {
+    color: white;
+    border-color: #d1c7bd;
+    background-color: #d1c7bd;
+}
+
+.btn-outline-commment:hover {
+    color: #d1c7bd;
+    background-color: white;
+    border-color: #d1c7bd;
+    box-shadow: none;
+}
+.btn-outline-commment:focus {
+    box-shadow: none;
+}
+
+.btn-outline-primary {
+    color: #d1c7bd;
+    border-color: #d1c7bd;
+}
+.btn-outline-primary:hover {
+    color: white;
+    background-color: #d1c7bd;
+    border-color: #d1c7bd;
+    outline: none;
+}
+.btn-outline-secondary:focus {
+    box-shadow: none;
+}
+
+.hit-voting {
+    cursor: pointer;
+}
